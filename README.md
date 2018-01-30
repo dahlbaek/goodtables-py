@@ -425,8 +425,15 @@ calling using the "nested" preset should run faster.
 
 This project follows the [Open Knowledge International coding standards](https://github.com/okfn/coding-standards).
 
-We recommend you to use `virtualenv` to isolate goodtables from the rest of the
-packages in your machine.
+We recommend using a virtual environment to isolate goodtables from the rest of
+the packages on your machine. If you are using Python 3.6, you can set up a
+virtual environment in the `venv` folder with the command:
+
+```
+$ python3 -m venv venv
+```
+
+For details, see the [documentation](https://docs.python.org/3/library/venv.html).
 
 To install goodtables and the development dependencies, run:
 
